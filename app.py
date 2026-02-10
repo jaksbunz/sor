@@ -26,7 +26,7 @@ with col2:
 
 if yes and not st.session_state['accepted']:
     st.session_state['accepted'] = True
-    audio_path = "C:/Users/admin/Downloads/6d632feb-32da-4d4b-a926-ca4644221e57.mp4"
+    audio_path = "6d632feb-32da-4d4b-a926-ca4644221e57.mp4"
 
     st.audio(audio_path, format="audio/mp3", start_time=0)
 
@@ -37,3 +37,4 @@ if yes and not st.session_state['accepted']:
     st.session_state['start_time'] = time.time()
     st.success("I'm really sorry po talaga, baby")
     st.success("I love you so much po")
+
